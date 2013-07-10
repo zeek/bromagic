@@ -1,0 +1,12 @@
+========
+BroMagic
+========
+
+A custom magic database for use with libmagic (www.darwinsys.com/file).
+The main purpose of maintaining the separate database is so that results
+are more deterministic and independent from the particular version of
+libmagic that's installed, which comes with its own default database.
+This repository is originally derived from the the default database of
+libmagic version 5.14, but with much of the rules taken out that had no
+corresponding mime type or weren't compatible with versions as old as
+5.04.

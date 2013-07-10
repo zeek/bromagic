@@ -1,0 +1,8 @@
+# See the file "COPYING" in the main distribution directory for copyright.
+#------------------------------------------------------------------------------
+# $File$
+# pdf:  file(1) magic for Portable Document Format
+#
+
+0	string		%PDF-		PDF document
+!:mime	application/pdf
