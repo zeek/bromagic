@@ -1,6 +1,5 @@
-# See the file "COPYING" in the main distribution directory for copyright.
 #------------------------------------------------------------------------------
-# $File: sgml,v 1.28 2012/04/28 21:20:26 christos Exp $
+# $File: sgml,v 1.29 2012/08/26 10:25:41 christos Exp $
 # Type:	SVG Vectorial Graphics
 # From:	Noel Torres <tecnico@ejerciciosresueltos.com>
 0	string		\<?xml\ version="
@@ -71,12 +70,32 @@
 0	string/t		\<?xml\ version="	XML
 !:mime	application/xml
 !:strength + 5
+>15	string/t	>\0			%.3s document text
+>>23	search/1	\<xsl:stylesheet	(XSL stylesheet)
+>>24	search/1	\<xsl:stylesheet	(XSL stylesheet)
 0	string		\<?xml\ version='	XML
 !:mime	application/xml
 !:strength + 5
+>15	string/t	>\0			%.3s document text
+>>23	search/1	\<xsl:stylesheet	(XSL stylesheet)
+>>24	search/1	\<xsl:stylesheet	(XSL stylesheet)
 0	search/1/wbt	\<?xml			XML document text
 !:mime	application/xml
 !:strength - 10
 0	search/1/wt	\<?XML			broken XML document text
 !:mime	application/xml
 !:strength - 10
+
+
+# SGML, mostly from rph@sq
+0	search/4096/cwt	\<!doctype		exported SGML document text
+0	search/4096/cwt	\<!subdoc		exported SGML subdocument text
+0	search/4096/cwt	\<!--			exported SGML document text
+!:strength - 10
+
+# Web browser cookie files
+# (Mozilla, Galeon, Netscape 4, Konqueror..)
+# Ulf Harnhammar <ulfh@update.uu.se>
+0	search/1	#\ HTTP\ Cookie\ File	Web browser cookie text
+0	search/1	#\ Netscape\ HTTP\ Cookie\ File	Netscape cookie text
+0	search/1	#\ KDE\ Cookie\ File	Konqueror cookie text

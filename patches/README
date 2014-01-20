@@ -1,0 +1,5 @@
+(These patches are already applied.)
+
+0.patch   - Less strict emission of application/msword: some word docs
+            don't have the bjbj/jbjb pattern at byte offset 546.
+
